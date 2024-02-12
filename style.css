@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 6.25%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15rem;
+  color: hsl(245, 17%, 29%);
+
+  height: 100vh;
+
+  padding: 64rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64rem;
+}
+
+main {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32rem;
+
+  max-width: 55%;
+}
+
+main #infos,
+main #infos #paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+  text-align: center;
+
+  max-width: 540rem;
+}
+
+main #infos h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 32rem;
+  text-align: center;
+}
+
+main #infos h1 span {
+  color: hsl(295, 100%, 57%);
+}
+
+
+main #infos #paragraphs {
+  gap: 32rem;
+}
+
+footer {
+  max-width: 20%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 16rem;
+}
+
+footer hr {
+  width: 100%;
+}
+
+footer nav {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 42rem;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #3F3D56;
+}
+
+footer nav a:hover {
+  color: #3f3d5696;
+}
